@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import netflixLogo from '../img/logo.png'
+import profileIcon from '../img/icon.png'
 
 const NetflixNavbar = () => {
   return (
@@ -26,14 +27,14 @@ const NetflixNavbar = () => {
           </Nav>
           <div className="d-flex align-items-center">
             <div className="mt-3 d-flex align-items-center">
-              <Nav.Link href="#" className="me-4" style={{ fontWeight: 'bold' }}>
+              <Nav.Link href="#" className="me-4 text-white">
                 KIDS
               </Nav.Link>
             </div>
             <NavDropdown
               title={
                 <img
-                  src="assets/avatar.png"
+                  src={profileIcon}
                   alt="avatar"
                   width="50"
                   style={{ borderRadius: '50%' }}
