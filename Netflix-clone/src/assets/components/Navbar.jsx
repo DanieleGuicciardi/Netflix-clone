@@ -5,24 +5,24 @@ import netflixLogo from '../img/logo.png'
 
 const NetflixNavbar = () => {
   return (
-    <Navbar bg="light" expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container fluid>
         <Navbar.Brand href="index.html">
           <img
             src={netflixLogo}
             alt="netflix_logo"
             width="100"
-            height="50"
+            height="55"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
         <Navbar.Collapse id="navbarNavAltMarkup">
-          <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">TV Shows</Nav.Link>
-            <Nav.Link href="#">Movies</Nav.Link>
-            <Nav.Link href="#">Recently Added</Nav.Link>
-            <Nav.Link href="#">My List</Nav.Link>
+          <Nav className="me-auto fw-bold">
+            <Nav.Link href="#" className='text-white'>Home</Nav.Link>
+            <Nav.Link href="#" className='text-secondary'>TV Shows</Nav.Link>
+            <Nav.Link href="#" className='text-secondary'>Movies</Nav.Link>
+            <Nav.Link href="#" className='text-secondary'>Recently Added</Nav.Link>
+            <Nav.Link href="#" className='text-secondary'>My List</Nav.Link>
           </Nav>
           <div className="d-flex align-items-center">
             <div className="mt-3 d-flex align-items-center">
