@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './assets/components/Navbar.jsx'
+import NetflixNavbar from './assets/components/Navbar.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar/>
+      <NetflixNavbar/>
     </>
   );
 }
