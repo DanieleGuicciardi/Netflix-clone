@@ -1,6 +1,6 @@
 # Netflix Clone
 
-This project is a Netflix clone built using **React**, **Bootstrap**, and **Bootstrap Icons**. The goal is to recreate Netflix's design and functionality, implementing responsive layouts and interactive features.
+This project is a Netflix clone built using **React**. The goal is to recreate Netflix's design and functionality, implementing responsive layouts and interactive features.
 
 ---
 
@@ -11,7 +11,6 @@ This project is a Netflix clone built using **React**, **Bootstrap**, and **Boot
 - **Bootstrap Icons** for modern, lightweight icons.
 - **Dynamic Movie Rows** powered by the OMDb API.
 - **Custom Hover Effects** for interactive cards and images.
-- **Dropdown Menu** styled for user profiles.
 - **Loading Spinner** designed to mimic Netflix’s loading animation.
 
 ---
