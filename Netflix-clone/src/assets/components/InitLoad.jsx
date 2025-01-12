@@ -18,7 +18,7 @@ const initLoad = () => {
           justifyContent: "center",
           alignItems: "center",
           height: "100vh",
-          backgroundColor: "#221F1F",
+          backgroundColor: "221F1F",
         }}
       >
         <div

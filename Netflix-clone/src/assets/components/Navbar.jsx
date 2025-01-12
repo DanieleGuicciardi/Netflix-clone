@@ -6,6 +6,7 @@ import '../styles/Navbar.css';
 
 import netflixLogo from '../img/logo.png'
 import profileIcon from '../img/icon.png'
+import avatar from '../img/avatar.png'
 
 const NetflixNavbar = () => {
   return (
@@ -53,7 +54,7 @@ const NetflixNavbar = () => {
               <NavDropdown.Item>
                 <div className="d-flex align-items-center">
                   <img
-                    src="assets/avatar.png"
+                    src={avatar}
                     alt="avatar"
                     width="50"
                     height="50"
