@@ -20,11 +20,11 @@ This project is a Netflix clone built using **React**, **Bootstrap**, and **Boot
 ### To clone and run the project locally:
 
 1. Clone the repository:
-   ### 'git clone //repoLink'
+   ### `git clone //repoLink`
 2. Install dependencies:
-   ### 'npm install'
+   ### `npm install`
 3. Start the development server:
-   ### 'npm run dev'
+   ### `npm run dev`
 
 ---
 
