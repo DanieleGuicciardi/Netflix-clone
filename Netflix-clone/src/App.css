@@ -18,7 +18,13 @@ h3 {
   color: white !important;
   size: 10px;
   padding-left: 1em ;
-  padding-top: 1em;
+  padding-top: 0.5em;
+}
+
+.generesButton {
+  border: 1px solid white !important;
+  border-radius: 0 !important;
+  background-color: #221F1F !important;
 }
 
 
