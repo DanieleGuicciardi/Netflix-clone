@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import moviesPool from "../json/SearchPool.json"; 
-import "./FilmGallery.css"; 
+import "../styles/FilmGallery.css"; 
 
 function MovieRow() {
   const [movies, setMovies] = useState([]); 

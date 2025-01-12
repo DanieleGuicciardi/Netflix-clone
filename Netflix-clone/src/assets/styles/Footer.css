@@ -1,0 +1,42 @@
+.footer a {
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .bi {
+    font-size: 1.5rem;
+  }
+
+  .footer li {
+    margin: 0;
+    text-align: start;
+  }
+
+
+.footerBtn, .copyright {
+  text-align: start !important;
+}
+
+.copyright {
+  font-size: 0.65rem !important;
+}
+
+.footer {
+  margin-left: 30em;
+  margin-right: 30em;
+}
+  
+.footerText {
+  size: 10px;
+}
+
+.footer a {
+  font-size: 0.85rem;
+}
+
+.footer p {
+  font-size: 0.75rem; 
+}

@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  padding: 10px;
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  flex: 0 0 calc(20% - 20px);
+  max-width: 220px;
+  height: 320px;
+  overflow: hidden; /* Nasconde ciò che esce dai bordi */
+  border-radius: 16px; 
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; 
+  padding: 0;
+  border: none;
+}
+
+.card:hover .image {
+  transform: scale(1.1); /* Effetto zoom sull'immagine */
+}
+
+.image {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px; 
+  display: block;
+  transition: transform 0.3s ease; /* Aggiunge un'animazione fluida allo zoom */
+}
+
+.noPoster {
+  font-size: 14px;
+  color: #555;
+}

@@ -1,0 +1,14 @@
+.dropdown-menu {
+    background-color: #221F1F !important; /* Sfondo nero */
+    color: #fff !important; /* Testo bianco */ 
+    border: 2px solid black;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #fff !important; /* Testo bianco per gli elementi */
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #444 !important; /* Sfondo grigio scuro al passaggio del mouse */
+  }
+  
