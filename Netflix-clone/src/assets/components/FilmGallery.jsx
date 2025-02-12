@@ -17,7 +17,7 @@ function MovieRow() {
     const randomMovies = getRandomMovies(6);
     try {
       const promises = randomMovies.map((movie) =>
-        fetch(`http://www.omdbapi.com/?apikey=${apiKey}&t=${movie.title}`).then((res) =>
+        fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${movie.title}`).then((res) =>
           res.json()
         )
       );
