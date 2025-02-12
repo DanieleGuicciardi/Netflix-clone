@@ -65,7 +65,7 @@ const NetflixNavbar = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">Manage Profiles</NavDropdown.Item>
-              <NavDropdown.Item href="profile.html">Account</NavDropdown.Item>
+              <NavDropdown.Item href="#">Account</NavDropdown.Item>
               <NavDropdown.Item href="#">Help Center</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">Signout Netflix</NavDropdown.Item>
